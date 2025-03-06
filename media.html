@@ -6,57 +6,63 @@
     <title>Media Gallery</title>
     <style>
         /* Header Styling */
-        header {
-            background-color: #8b5e3b; /* Coffee Brown */
-            color: white;
-            padding: 15px 0;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-            transition: top 0.3s;
-        }
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e1d2; /* Baby Pink Background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-        .nav-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            max-width: 1200px;
-            margin: auto;
-            padding: 0 20px;
-        }
+/* Header Styling */
+header {
+    background-color: #8b5e3b; /* Coffee Brown */
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        .logo-container .logo {
-            height: 80px;
-            width: auto;
-        }
+/* Logo Styling */
+.logo {
+    height: 80px;
+    width: auto;
+}
 
-        .navbar {
-            list-style: none;
-            display: flex;
-            gap: 25px;
-            padding: 0;
-            margin: 0;
-        }
+/* Navbar Styling */
+.nav-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
 
-        .navbar li {
-            display: inline;
-        }
+/* Align Navbar to the Right */
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin-left: auto; /* Moves navbar to the right */
+}
 
-        .navbar li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
-            padding: 10px 15px;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
+/* Navbar Links */
+.navbar li {
+    display: inline;
+}
 
-        .navbar li a:hover {
-            background: rgba(255, 255, 255, 0.2);
-        }
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navbar li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
 
         /* Set background to light pink */
         body {
