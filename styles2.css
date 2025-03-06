@@ -1,0 +1,118 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e1d2; /* Baby Pink Background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #8b5e3b; /* Coffee Brown */
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+/* Navbar Styling */
+.nav-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Align Navbar to the Right */
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin-left: auto; /* Moves navbar to the right */
+}
+
+/* Navbar Links */
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navbar li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Title Styling */
+.menu-title {
+    font-size: 2em;
+    color: #5e4033; /* Dark Brown */
+    margin: 20px 0;
+}
+
+/* Menu Section */
+section {
+    margin: 40px 5%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+h2 {
+    font-size: 1.8em;
+    color: #5e4033;
+    border-bottom: 2px solid #5e4033;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Menu Items */
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual Menu Item */
+.item {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #8b5e3b;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+
+
