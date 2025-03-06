@@ -8,61 +8,78 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="nav-container">
             <div class="logo-container">
-                <img src="image\logo.png" alt="logo" height="200" width="200">
-            
+                <img src="image\logo.png" alt="Mug Life Logo" class="logo">
             </div>
-            <ul class="navbar">
-                <li><a href="#">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav><br>
-        <header class="hero">
-            <div class="hero-content">
-                <img src="image\coffee.jpg" alt="coffee">
-                <h1>FRESHLY ROASTED <span>COFFEE</span></h1>
-                <button class="shop-now">Shop Now</button>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header><br><br>
+    <section class="parent">
+        <section class="hero">
+            <div class="hero-text">
+                <p>FRESHLY ROASTED COFFEE</p>
+                <button>Shop Now</button>
             </div>
-        </header>
-        
-        
-    </header>
-
+            <div class="hero-image">
+                <img src="image/coffee.jpg" alt="Coffee cup with beans">
+            </div>
+        </section>        
+    </section>
+    
+    
+    
     <section class="categories">
         <h2>Top Categories</h2>
         <h4>Explore The Recent Most Bought Drinks This Week</h4>
         <div class="category">
-            <img src="image\mocha.jpg" alt="Mocha" height="300" width="250">
+            <a href="menu.html">
+                <img src="image\mocha.jpg" alt="Mocha" height="300" width="250">
+            </a>
             <div class="category-text">Coffee Mocha</div>
         </div>
         
         <div class="category">
-            <img src="image\expresso.jpg" alt="Expresso" height="300" width="250">
+            <a href="menu.html">
+                <img src="image\expresso.jpg" alt="Expresso" height="300" width="250">
+            </a>
             <div class="category-text">Expresso Americano</div>
         </div>
         
         <div class="category">
-            <img src="image\cappucino.jpg" alt="Cappucino" height="300" width="250">
-            <div class="category-text">Expresso Americano</div>
+            <a href="menu.html">
+                <img src="image\cappucino.jpg" alt="Cappucino" height="300" width="250">
+            </a>
+            <div class="category-text">Cappuccino</div>
         </div>
     </section>
     <div class="milkshakes-container">
         <h2>Top Milkshakes</h2>
         <div class="milkshakes-list">
             <div class="milkshake-item">
-                <img src="image\levender.jpg" alt="Lavender Caramel Shake" height="400" width="250">
-                <p class="milkshake-name">Lavender Caramel Shake</p>
+                <a href="menu.html">
+                    <img src="image\levender.jpg" alt="Lavender Caramel Shake" height="400" width="250">
+                </a>
+                <p class="milkshake-name">Lavender Shake</p>
             </div>
             <div class="milkshake-item">
-                <img src="image\mocha2.jpg" alt="Vanilla Shake" height="300" width="250">
+                <a href="menu.html">
+                    <img src="image\mocha2.jpg" alt="Vanilla Shake" height="300" width="250">
+                </a>
                 <p class="milkshake-name">Vanilla Shake</p>
             </div>
             <div class="milkshake-item">
-                <img src="image\caramel.jpg" alt="Chocolate Shake" height="300" width="250">
+                <a href="menu.html">
+                    <img src="image\caramel.jpg" alt="Chocolate Shake" height="300" width="250">
+                </a>
                 <p class="milkshake-name">Chocolate Shake</p>
             </div>
         </div>
