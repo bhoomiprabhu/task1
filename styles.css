@@ -87,6 +87,12 @@ header {
     font-family:verdana;
 }
 
+.hero-text h1{
+    font-size:4rem;
+    font-weight:bold;
+    font-family:Helvetica;
+}
+
 .hero-text button {
     background-color: #E1B382;
     border: 2px solid #562d01;
