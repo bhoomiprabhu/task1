@@ -88,9 +88,10 @@ header {
 }
 
 .hero-text h1{
-    font-size:4rem;
-    font-weight:bold;
+    font-size:30px;
+    font-weight:600;
     font-family:Helvetica;
+    color:#794604;
 }
 
 .hero-text button {
