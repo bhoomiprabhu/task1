@@ -82,15 +82,11 @@ header {
 
 .hero-text p {
     font-size: 2rem;
-    font-weight:lighter;
+    font-weight:semi-bold;
     margin-bottom: 10px;
     font-family:Helvetica;
 }
 
-.hero-text h1{
-    text-shadow:#562d01;
-    font-weight:600;
-}
 
 .hero-text button {
     background-color: #E1B382;
