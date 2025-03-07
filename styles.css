@@ -84,14 +84,12 @@ header {
     font-size: 2rem;
     font-weight:lighter;
     margin-bottom: 10px;
-    font-family:verdana;
+    font-family:Helvetica;
 }
 
 .hero-text h1{
     text-shadow:#562d01;
     font-weight:600;
-    font-family:Helvetica;
-    color:#f0a063;    
 }
 
 .hero-text button {
